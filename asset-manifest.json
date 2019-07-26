@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/React-Clicky-Game/static/css/main.a1763f36.chunk.css",
+    "main.js": "/React-Clicky-Game/static/js/main.4ca5a20c.chunk.js",
+    "main.js.map": "/React-Clicky-Game/static/js/main.4ca5a20c.chunk.js.map",
+    "runtime~main.js": "/React-Clicky-Game/static/js/runtime~main.25e3a6ff.js",
+    "runtime~main.js.map": "/React-Clicky-Game/static/js/runtime~main.25e3a6ff.js.map",
+    "static/js/2.ef8084ba.chunk.js": "/React-Clicky-Game/static/js/2.ef8084ba.chunk.js",
+    "static/js/2.ef8084ba.chunk.js.map": "/React-Clicky-Game/static/js/2.ef8084ba.chunk.js.map",
+    "index.html": "/React-Clicky-Game/index.html",
+    "precache-manifest.95b87c1d7c99c065bf2fba69b88727d4.js": "/React-Clicky-Game/precache-manifest.95b87c1d7c99c065bf2fba69b88727d4.js",
+    "service-worker.js": "/React-Clicky-Game/service-worker.js",
+    "static/css/main.a1763f36.chunk.css.map": "/React-Clicky-Game/static/css/main.a1763f36.chunk.css.map",
+    "static/media/bart.png": "/React-Clicky-Game/static/media/bart.7aa0f2f2.png",
+    "static/media/chief-wiggam.gif": "/React-Clicky-Game/static/media/chief-wiggam.d5d76f07.gif",
+    "static/media/index.css": "/React-Clicky-Game/static/media/clouds.91a7e1fa.jpg",
+    "static/media/homer.jpg": "/React-Clicky-Game/static/media/homer.82350cd6.jpg",
+    "static/media/krusty.jpg": "/React-Clicky-Game/static/media/krusty.84ff8b75.jpg",
+    "static/media/logo.svg": "/React-Clicky-Game/static/media/logo.5d5d9eef.svg",
+    "static/media/maggie.jpg": "/React-Clicky-Game/static/media/maggie.d825e641.jpg",
+    "static/media/marge.jpg": "/React-Clicky-Game/static/media/marge.e9ec71ea.jpg",
+    "static/media/milhouse.png": "/React-Clicky-Game/static/media/milhouse.d6f5c679.png",
+    "static/media/mr-burns.png": "/React-Clicky-Game/static/media/mr-burns.a60c0247.png",
+    "static/media/ned-flanders.jpg": "/React-Clicky-Game/static/media/ned-flanders.90decb36.jpg",
+    "static/media/ralph.jpg": "/React-Clicky-Game/static/media/ralph.2f0e66c1.jpg",
+    "static/media/santas-lil-helper.jpg": "/React-Clicky-Game/static/media/santas-lil-helper.ebbeb55f.jpg",
+    "static/media/sideshow-bob.png": "/React-Clicky-Game/static/media/sideshow-bob.f4fc2946.png",
+    "static/media/Banner.css": "/React-Clicky-Game/static/media/simpsons-couch.00e432d1.jpg"
+  }
+}
