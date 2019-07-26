@@ -2,10 +2,12 @@ body,
 html {
   height: 100%;
   margin: 0;
+  padding-top: 50px;
 }
 
 body {
   background: url(./images/clouds.jpg) center center fixed;
+  user-select: none;
 }
 
 

@@ -2,9 +2,9 @@ import React from 'react';
 import './Banner.css';
 
 const Banner = () => (
-    <div className="banner d-flex flex-column align-items-left py-2 px-4 my-5">
-        <p className="banner-text">Click on an image to earn points,</p> 
-            <p>but don't click on the same image more than once!</p>
+    <div className="banner d-flex align-items-center">
+        <p className="col-md-8 text-center mb-5">Click on an image to earn points, but be careful not to click the same image twice!</p> 
+        
     </div>
 );
 

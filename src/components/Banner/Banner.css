@@ -6,6 +6,16 @@
     font-size: 32px;
     font-family: 'Changa', sans-serif;
     box-shadow: rgb(76, 32, 124) 0 0 34px 10px;
+    text-shadow: black 2px 2px 2px;
+    margin: 4em 0 1em 0;
+  }
 
+  @media only screen and (max-width: 750px) {
+    .banner{
+        margin-top: 6em;
+    }
+    .banner p {
+        padding: 2em;
+    }
   }
 

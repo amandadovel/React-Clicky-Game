@@ -1,0 +1,10 @@
+.footer {
+    color: white;
+    background-color: #9E45FF;
+    box-shadow: rgb(76, 32, 124) 0 0 34px 10px;
+    text-shadow: black 2px 2px 2px;
+    font-size: 28px;
+    letter-spacing: 2px;
+    height: 80px;
+    font-family: 'Changa', sans-serif;
+}
