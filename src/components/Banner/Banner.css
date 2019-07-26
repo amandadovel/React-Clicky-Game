@@ -1,0 +1,11 @@
+.banner {
+    background: url('../../images/simpsons-couch.jpg') no-repeat center center;
+    background-size: cover;
+    height: 380px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Changa', sans-serif;
+    box-shadow: rgb(76, 32, 124) 0 0 34px 10px;
+
+  }
+

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Container from './Container';
 // import Footer from './Footer';
-// import Banner from './Banner';
+import Banner from './Banner';
 import images from '../images';
 
 class ClickyGame extends Component {
@@ -70,6 +70,17 @@ class ClickyGame extends Component {
                 score++;
             }
 
+            // If this runs, the same element has not been clicked twice and score is increased
+            this.setState({
+                score: score,
+                highScore: highScore,
+                navMsgColor: 'Correct',
+                navMessage: 'You Guessed Correctly!',
+                allCharacters: shuffled,
+                wasClicked: prevState,
+                shake: false
+            });
+
             // adds clicked item to 'wasClicked' 
             prevState.push(clickedElem);
         }
@@ -88,16 +99,6 @@ class ClickyGame extends Component {
             });
         }
 
-        // If this runs, the same element has not been clicked twice and score is increased
-        this.setState({
-            score: score,
-            highScore: highScore,
-            navMsgColor: 'Correct',
-            navMessage: 'You Guessed Correctly!',
-            allCharacters: shuffled,
-            wasClicked: prevState,
-            shake: false
-        });
 
         // Removes green correct indicator on a successful click after .5s
         // Re-renders the class on each success
@@ -108,6 +109,7 @@ class ClickyGame extends Component {
     // Creates a character component for each image
     // Passes 'this.checkClicked' to container to pass to each character component for click event
     render() {
+        // console.log(this.state);
         const state = this.state;
         return (
             <>
@@ -117,6 +119,7 @@ class ClickyGame extends Component {
                     navMessage={state.navMessage}
                     navMsgColor={state.navMsgColor}
                 />
+                <Banner />
                 <Container
                     shake={state.shake}
                     characters={state.allCharacters}

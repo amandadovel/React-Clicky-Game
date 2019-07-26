@@ -1,0 +1,15 @@
+.card {
+    border: 3px solid #d7d7d7;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+    height: 170px;
+    margin: 28px;
+    overflow: hidden;
+    width: 170px;
+  }
+
+  .card:hover {
+    box-shadow: #9E45FF 2px 4px 28px 4px;
+    transform: scale(1.05);
+    transition: 0.1s;
+  }
