@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Clicky-Game/static/css/main.b3fa911c.chunk.css",
+    "main.css": "/React-Clicky-Game/static/css/main.d48fd8a1.chunk.css",
     "main.js": "/React-Clicky-Game/static/js/main.9ab2cbf1.chunk.js",
     "main.js.map": "/React-Clicky-Game/static/js/main.9ab2cbf1.chunk.js.map",
     "runtime~main.js": "/React-Clicky-Game/static/js/runtime~main.25e3a6ff.js",
@@ -8,9 +8,9 @@
     "static/js/2.ef8084ba.chunk.js": "/React-Clicky-Game/static/js/2.ef8084ba.chunk.js",
     "static/js/2.ef8084ba.chunk.js.map": "/React-Clicky-Game/static/js/2.ef8084ba.chunk.js.map",
     "index.html": "/React-Clicky-Game/index.html",
-    "precache-manifest.63cf4f4e86f245d168316804d18ab73b.js": "/React-Clicky-Game/precache-manifest.63cf4f4e86f245d168316804d18ab73b.js",
+    "precache-manifest.602666f1f99023e20da0b39426e8f30f.js": "/React-Clicky-Game/precache-manifest.602666f1f99023e20da0b39426e8f30f.js",
     "service-worker.js": "/React-Clicky-Game/service-worker.js",
-    "static/css/main.b3fa911c.chunk.css.map": "/React-Clicky-Game/static/css/main.b3fa911c.chunk.css.map",
+    "static/css/main.d48fd8a1.chunk.css.map": "/React-Clicky-Game/static/css/main.d48fd8a1.chunk.css.map",
     "static/media/bart.png": "/React-Clicky-Game/static/media/bart.7aa0f2f2.png",
     "static/media/chief-wiggam.gif": "/React-Clicky-Game/static/media/chief-wiggam.d5d76f07.gif",
     "static/media/index.css": "/React-Clicky-Game/static/media/clouds.91a7e1fa.jpg",
