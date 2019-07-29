@@ -23,6 +23,18 @@
     pointer-events: none;
 }
 
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+.msg {
+    font-size: 28px;
+}
+
 @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);

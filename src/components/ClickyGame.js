@@ -74,8 +74,8 @@ class ClickyGame extends Component {
             this.setState({
                 score: score,
                 highScore: highScore,
-                navMsgColor: 'Correct',
-                navMessage: 'You Guessed Correctly!',
+                navMsgColor: 'correct',
+                navMessage: 'Correct!',
                 allCharacters: shuffled,
                 wasClicked: prevState,
                 shake: false
@@ -83,26 +83,30 @@ class ClickyGame extends Component {
 
             // adds clicked item to 'wasClicked' 
             prevState.push(clickedElem);
+            
+            // Removes green correct indicator on a successful click after .5s
+            // Re-renders the class on each success
+            return setTimeout(() => this.setState({ navMsgColor: '' }), 500);
         }
 
         // Resets the current score if the same element was clicked twice
         if (this.state.wasClicked.includes(clickedElem)) {
             let score = 0;
-            return this.setState({
+            this.setState({
                 score: score,
                 highScore: highScore,
                 navMsgColor: 'incorrect',
-                navMessage: 'Incorrect Guess!',
+                navMessage: 'Incorrect!',
                 allCharacters: shuffled,
                 wasClicked: [],
                 shake: true
             });
+
+            // Removes green correct indicator on a successful click after .5s
+            // Re-renders the class on each success
+            return setTimeout(() => this.setState({ navMsgColor: '' }), 500);
         }
 
-
-        // Removes green correct indicator on a successful click after .5s
-        // Re-renders the class on each success
-        return setTimeout(() => this.setState({ navMsgColor: '' }), 500);
     }
     // Renders score to navbar
     // Passes randomized 'state.allCharacters' array to Container
